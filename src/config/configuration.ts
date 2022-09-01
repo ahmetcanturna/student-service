@@ -19,7 +19,7 @@ export default () => ({
     },
   },
   server: {
-    port: +(process.env.SERVER_PORT || process.env.PORT || 8080),
+    port: +(process.env.SERVER_PORT || process.env.PORT || 8082),
     keepAliveTimeout: +(process.env.SERVER_KEEP_ALIVE_TIMEOUT || 120000),
     returnValidationInfoError:
       (process.env.SERVER_RETURN_VALIDATION_INFO_ERROR || 'false')
